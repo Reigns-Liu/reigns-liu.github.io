@@ -1,0 +1,26 @@
+title: Sze Yui Liu
+description:
+show_downloads: false
+color-scheme: auto
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jemoji
+
+# You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
+sidebar-external:
+  - icon: <i class="fa-regular fa-envelope"></i>
+    link: mailto:reignsvliu@gmail.com
+  - icon: <i class="fa-regular fa-file-lines"></i>
+    link: files/SzeYuiLiu-Resume.pdf
+  - icon: <i class="fa-brands fa-github-alt"></i>
+    link: https://github.com/Reigns-Liu
+  - icon: <i class="fa-brands fa-linkedin"></i>
+    link: https://www.linkedin.com/in/reigns-liu/
+
+# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
+# When running locally, we run into the following error —
+# GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+# adding this avoids it
+github: [metadata]
